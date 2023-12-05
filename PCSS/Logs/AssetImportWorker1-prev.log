@@ -1,0 +1,265 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.32f1c1 (fa19b96eeab7) revision 16390585'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 32539 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.32f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/ShawZZZZZ/Desktop/XM/PCSS
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50732
+Successfully changed project path to: C:/Users/ShawZZZZZ/Desktop/XM/PCSS
+C:/Users/ShawZZZZZ/Desktop/XM/PCSS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18244] Host "[IP] 118.202.10.86 [Port] 0 [Flags] 2 [Guid] 554745373 [EditorId] 554745373 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N5D78ML) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18244] Host "[IP] 118.202.10.86 [Port] 0 [Flags] 2 [Guid] 554745373 [EditorId] 554745373 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N5D78ML) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 76.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.32f1c1 (fa19b96eeab7)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.32f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ShawZZZZZ/Desktop/XM/PCSS/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a0)
+    Vendor:   Intel
+    VRAM:     16269 MB
+    Driver:   31.0.101.4575
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.32f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.32f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.32f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.32f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002711 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 74.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.563 seconds
+Domain Reload Profiling:
+	ReloadAssembly (564ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (395ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012869 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ShawZZZZZ\Desktop\XM\PCSS\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ShawZZZZZ\Desktop\XM\PCSS\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.476 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1477ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1241ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (746ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (586ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3577 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (48.9 KB). Loaded Objects now: 4037.
+Memory consumption went from 125.2 MB to 125.1 MB.
+Total: 3.542200 ms (FindLiveObjects: 0.267800 ms CreateObjectMapping: 0.115200 ms MarkObjects: 3.075700 ms  DeleteObjects: 0.082500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 170290.335812 seconds.
+  path: Assets/ToyRP
+  artifactKey: Guid(fd946762686ffe148af0a57213f16dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ToyRP using Guid(fd946762686ffe148af0a57213f16dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af292babc266080fddf544b48081c399') in 0.016314 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ToyRP/128x128-blue-noise-texture-tiled-4x4-1.png
+  artifactKey: Guid(62cbaa6cafc259f4f85496050fe5bbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ToyRP/128x128-blue-noise-texture-tiled-4x4-1.png using Guid(62cbaa6cafc259f4f85496050fe5bbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb474402863542419aad24e42b8d505') in 0.100484 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 4040.
+Memory consumption went from 52.8 MB to 52.8 MB.
+Total: 3.907900 ms (FindLiveObjects: 0.219800 ms CreateObjectMapping: 0.073200 ms MarkObjects: 3.569600 ms  DeleteObjects: 0.044400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1451.479168 seconds.
+  path: Assets/IBL/ibl_brdf_lut.png
+  artifactKey: Guid(89252e11f7e138d4d8c66e868b8d5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/IBL/ibl_brdf_lut.png using Guid(89252e11f7e138d4d8c66e868b8d5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf477c1a1326b63a2e0270a239553e7') in 0.025693 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IBL/skybox.hdr
+  artifactKey: Guid(dd5c5b30428f7404dafeed03339e418a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/IBL/skybox.hdr using Guid(dd5c5b30428f7404dafeed03339e418a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at ToyRenderPipeline.ShadowCastingPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x0000f] in C:\Users\ShawZZZZZ\Desktop\XM\PCSS\Assets\ToyRP\ToyRenderPipeline.cs:133 
+  at ToyRenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x00195] in C:\Users\ShawZZZZZ\Desktop\XM\PCSS\Assets\ToyRP\ToyRenderPipeline.cs:102 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <a141074b468340a291bb437a434c8bb2>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <a141074b468340a291bb437a434c8bb2>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <a141074b468340a291bb437a434c8bb2>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.CubemapPreview:RenderCubemap(Texture, Vector2, Single, Single)
+UnityEditor.CubemapPreview:RenderStaticPreview(Texture, Int32, Int32, Single)
+UnityEditor.TextureInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/ToyRP/ToyRenderPipeline.cs Line: 133)
+
+ -> (artifact id: '0f3d691179c11f3c0ed9e80d2fe7c55b') in 0.080586 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IBL/skyMat.mat
+  artifactKey: Guid(ab2e6b047d2cd1d40a34364a1a959eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/IBL/skyMat.mat using Guid(ab2e6b047d2cd1d40a34364a1a959eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at ToyRenderPipeline.ShadowCastingPass (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera camera) [0x0000f] in C:\Users\ShawZZZZZ\Desktop\XM\PCSS\Assets\ToyRP\ToyRenderPipeline.cs:133 
+  at ToyRenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras) [0x00195] in C:\Users\ShawZZZZZ\Desktop\XM\PCSS\Assets\ToyRP\ToyRenderPipeline.cs:102 
+  at UnityEngine.Rendering.RenderPipeline.Render (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x00009] in <a141074b468340a291bb437a434c8bb2>:0 
+  at UnityEngine.Rendering.RenderPipeline.InternalRender (UnityEngine.Rendering.ScriptableRenderContext context, System.Collections.Generic.List`1[T] cameras) [0x0001c] in <a141074b468340a291bb437a434c8bb2>:0 
+  at UnityEngine.Rendering.RenderPipelineManager.DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset pipe, System.IntPtr loopPtr, System.Collections.Generic.List`1[T] renderRequests, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle safety) [0x00044] in <a141074b468340a291bb437a434c8bb2>:0 
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Assets/ToyRP/ToyRenderPipeline.cs Line: 133)
+
+ -> (artifact id: '2953060009f2afefe78457b3685b6c22') in 0.047698 seconds 
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
